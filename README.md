@@ -1,7 +1,6 @@
-# IT Guide
+# P2P Models Docs
 
-Private repository that aims to host documentation and materials related to
-the software engineering process in P2P models.
+Repository that hosts technical documentation and materials of blockchain technologies.
 
 ## Structure
 
