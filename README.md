@@ -6,8 +6,6 @@ Repository that hosts technical documentation and materials of blockchain techno
 
 ```
 ├── bibliography                        <- Books, papers, and any other bibliography materials in pdf 
-|                                          format
-├── credentias                          <- Credentials of the prototypes and services used in the
 |                                          software development process
 ├── documentation                       <- Documentation related to the implemented 
 |                                          prototypes
@@ -16,6 +14,4 @@ Repository that hosts technical documentation and materials of blockchain techno
 ├── guidelines                          <- Guidelines, howtos, and manuals related to the 
 |                                          software development process
 ├── materials                           <- Web materiales, e.g., courses, frameworks, tutorials, etc.
-|
-├── meetings                            <- Meeting notes 
 ```
