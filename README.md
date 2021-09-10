@@ -1,6 +1,6 @@
 # P2P Models Docs
 
-Repository that hosts technical documentation and materials of blockchain technologies.
+Repository that hosts technical documentation and materials related to blockchain technologies.
 
 ## Structure
 
