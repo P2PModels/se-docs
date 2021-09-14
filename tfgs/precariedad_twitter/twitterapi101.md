@@ -24,4 +24,4 @@ acceso al API para investigaciones académicas. En ambos casos hay que llenar un
 solicitud explicando, entre otras cosas, el uso que se quiere dar del API, como
 se planea utilizar los datos, y como se publicaran o disponibilizarán los resultados.
 En este [enlace](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api) 
-se explican los pasos para tener acceso al API de Twitter.
+se describen los pasos para tener acceso al API de Twitter.

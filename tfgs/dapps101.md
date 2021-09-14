@@ -2,11 +2,10 @@
 
 Una dapp es una aplicación que funciona principalmente o enteramente de manera
 descentralizada. Las principales ventajas de una dapp sobre soluciones centralizadas
-son: la resilencia debido a que la lógica de la aplicación puede ser distribuida 
-en la red P2P; la transparencia debido a que al estar el código de la lógica de
-la aplicación alojado en la blockchain se puede acceder al mismo inspeccionando
-la blockchain (siempre que esta sea pública como la mainnet de Ethereum); y 
-resistencia a censura ya la naturalez distrubuida de la red sobre la que opera
+son: la `resilencia` debido a que la lógica de la aplicación puede ser distribuida 
+en la red P2P; la `transparencia` debido a que se puede acceder al código de la lógica de
+la aplicación alojado en la blockchain (siempre que esta sea pública como la mainnet de Ethereum); y la
+`resistencia a censura` ya que la naturaleza distrubuida de la red sobre la que opera
 la aplicación hace que cualquier usuario pueda interactuar con la lógica de la
 aplicación sin interferencia de una autoridad central.
 
@@ -26,7 +25,7 @@ técnicas de Truffle y Hardhat.
 
 ## Frontend
 
-El frontend de las dapps pueden estar implementados usando tecnología web
+El frontend de las dapps puede ser implementado usando tecnología web
 estándar (HTML, CSS, Javascript) a diferencia del backend que es desarrollado a 
 través de los smart contracts.
 
@@ -34,7 +33,7 @@ través de los smart contracts.
 
 Normalmente el frontend de una dapp interactua con Ethereum a través de una
 librería javascript llamada [Web3](https://web3js.readthedocs.io/en/v1.5.2/). 
-Web3 se encarga de gestionar el acceso a nodos locales o remotos de ethereum,
+Web3 se encarga de gestionar el acceso a nodos locales o remotos de Ethereum,
 así como también se ocupa de la interacción con las wallets.
 
 Para más información sobre Web3 consultar la documentación técnica en [materials](../materials/technical_refs.md) 
@@ -49,4 +48,4 @@ el estado de la aplicación.
 
 El directorio [bibliography/books](../bibliography/books/README.md) de este 
 repositorio dispone de un enlace al libro `Learning React` que puede servir como
-referencia para aprendar a programar utilizando el framework React.
+referencia para aprender a programar utilizando el framework React.
