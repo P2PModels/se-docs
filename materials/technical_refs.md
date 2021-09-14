@@ -3,7 +3,7 @@
 1. Blockchain
     1. [Solidity](https://solidity.readthedocs.io/en/latest/index.html)
     2. [Web3](https://web3js.readthedocs.io/en/v1.3.0)
-    3. [Ether](https://docs.ethers.io/v5)
+    3. [Ethers](https://docs.ethers.io/v5)
     4. [Aragon Connect](https://aragon.org/connect)
     5. [AragonUI](https://ui.aragon.org)
     6. [Meta-transactions](https://opengsn.org)
