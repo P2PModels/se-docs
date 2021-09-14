@@ -1,51 +1,47 @@
 # Decentralized Applications (dapps)
 
-Una dapp es una aplicación que funciona principalmente o enteramente de manera
-descentralizada. Las principales ventajas de una dapp sobre soluciones centralizadas
-son: la `resilencia` debido a que la lógica de la aplicación puede ser distribuida 
-en la red P2P; la `transparencia` debido a que se puede acceder al código de la lógica de
-la aplicación alojado en la blockchain (siempre que esta sea pública como la mainnet de Ethereum); y la
-`resistencia a censura` ya que la naturaleza distrubuida de la red sobre la que opera
-la aplicación hace que cualquier usuario pueda interactuar con la lógica de la
-aplicación sin interferencia de una autoridad central.
+A dapp is an application that works primarily or entirely in a decentralized 
+fashion. The main advantages of a dapp over centralized solutions are i) 
+`resilience` because the application business logic can be distributed throughout 
+the P2P network; ii) `transparency` because you can access the source code of the 
+application hosted on the blockchain (as long as it is public like the Ethereum 
+mainnet); iii) and `censorship resistance` since the distributed nature of the 
+network on which it operates allows any user to interact with the dapp without 
+interference from a central authority.
 
 ![Decentralized Pic](../figures/dcap_0101.png)
 
 ## Backend
 
-El backend de las dapps son los smart contracts que se encargan de almacenar
-toda la lógica de la aplicación. Un aspecto a considerar en el desarrollo de 
-smart contracts es la imposibilidad de cambiar el código una vez este ha sido
-desplegado en la blockchain.
+The backend of the dapps is the smart contracts responsible for storing all the 
+application's business logic. An aspect to consider in developing smart contracts 
+is the impossibility of changing the code once it has been deployed on the blockchain.
 
-Existen frameworks que facilitan el despligue y testeo de los smart contracts. 
-Truffle y el más reciente Harhat son dos ejemplos de estos. El directorio
-[materials](../materials/technical_refs.md) de este repositorio contiene referencias 
-técnicas de Truffle y Hardhat.
+Exist frameworks that facilitate the deployment and testing of smart contracts. 
+Truffle and the more recent Hardhat are two examples of them. The directory [materials] (../ materials / technical_refs.md) 
+from this repository contains technical references to Truffle' and Hardhat's documentation.
 
 ## Frontend
 
-El frontend de las dapps puede ser implementado usando tecnología web
-estándar (HTML, CSS, Javascript) a diferencia del backend que es desarrollado a 
-través de los smart contracts.
+The dapps frontend can be implemented using standard web technology
+(HTML, CSS, Javascript) unlike the backend that is developed using smart contracts.
 
 ### Web3
 
-Normalmente el frontend de una dapp interactua con Ethereum a través de una
-librería javascript llamada [Web3](https://web3js.readthedocs.io/en/v1.5.2/). 
-Web3 se encarga de gestionar el acceso a nodos locales o remotos de Ethereum,
-así como también se ocupa de la interacción con las wallets.
+Usually, the frontend of a dapp interacts with Ethereum through a javascript 
+library called [Web3] (https://web3js.readthedocs.io/en/v1.5.2/). Web3 is responsible 
+for managing the access to local or remote Ethereum nodes and dealing with the 
+interaction with the wallets.
 
-Para más información sobre Web3 consultar la documentación técnica en [materials](../materials/technical_refs.md) 
-de este repositorio.
+For more information on Web3 consult the technical documentation at [materials] (../ materials / technical_refs.md) 
+from this repository.
 
 ### React
 
-[React](https://reactjs.org) es en la actualidad uno de los frameworks de 
-desarrollo de interfaces webs más extendidos y utilizados. Creado por Facebook 
-ofrece un tooling de herramientas que facilita la gestión de los componentes y 
-el estado de la aplicación.
+[React] (https://reactjs.org) is currently one of the most widely used frameworks 
+for developing web interfaces. Created by Facebook, React offers a set of tools 
+that facilitates the management of the UI components and the status of the application.
 
-El directorio [bibliography/books](../bibliography/books/README.md) de este 
-repositorio dispone de un enlace al libro `Learning React` que puede servir como
-referencia para aprender a programar utilizando el framework React.
+The directory [bibliography / books] (../ bibliography / books / README.md) of 
+this repository has a link to the book `Learning React`, which can serve as a 
+reference for learning how to program in React.

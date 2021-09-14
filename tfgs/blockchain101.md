@@ -1,92 +1,85 @@
 # Blockchain, Ethereum, Smart contracts, Solidity
 
-## Blockchain
-
-El 31 de Octubre de 2008, coincidiendo con la crisis económica de aquel año, se 
-publica un artículo titulado ["Bitcoin: A Peer-to-peer Electronic Cash System"](https://bitcoin.org/bitcoin.pdf) 
-en el cual el autor, que se hace llamar [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto), describe un sistema que
-permite a las personas intercambiar entre si, esto es peer-to-peer (P2P), una moneda 
-electrónica sin necesidad de una autoridad intermediaria central o banco.
+In October 2008, coinciding with the economic crisis of that year, it was
+published an article titled ["Bitcoin: A Peer-to-peer Electronic Cash System"](https://bitcoin.org/bitcoin.pdf)
+in which the author, who signed as [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto), 
+describes a system called Bitcoin that allows people to exchange electronic 
+currency with each other, this is in a peer-to-peer (P2P) mode, without the need 
+for a central intermediary authority or bank.
 
 ![Satochi Paper](../figures/bitcoin_paper.png)
 
-Una de las ideas centrales del sistema P2P de Bitcoin fue la de usar una cadena 
-de bloques (o blockchain) para almacenar las operaciones monetarias que realizan
-las partes que componen el sistema. Inicialmente, entonces, blockchain fue concebido 
-como la herramienta que posibilitó el funcionamiento de la red Bitcoin almacenando
-las operaciones que ocurrian dentro de ella.
+One of the central ideas of the Bitcoin P2P system was to use a chain
+of blocks (or blockchain) to store the monetary operations carried out
+by stakeholders of the system. Initially, blockchain was conceived
+as the tool that made the Bitcoin network possible by holding its operations.
 
 ![Blockchain](../figures/blockchain.jpeg)
 
 ## Ethereum
 
-Con el paso del tiempo los entusiastas de Bitcoin se dieron cuenta que las innovaciones
-tecnológicas propuestas por Satoshi podrían servir no solo para soportar la operación
-de una red P2P de transferencias financieras sino que también para soportar el funcionamiento
-de aplicaciones mucho más complejas.
+As time went by, Bitcoin enthusiasts realized that innovations technologies 
+proposed by Satoshi could serve to support not only the operation of a P2P network 
+of financial transfers but also to support the operation of much more complex 
+applications.
 
-Una de estas personas fue [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin)
-quién en 2013 presentó unas ideas de una blockchain de propósito 
-general y programable a través de la cual desarrolladores podrían construir aplicaciones 
-decentralizadas abstrayéndolos de los detalles implementativos de la red P2P, la blockchain, 
-y los algoritmos de consenso.
+One of these people was [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), 
+who in 2013 presented some ideas of a programable general-purpose blockchain 
+through which developers could build decentralized applications abstracting them 
+from the implementation details of the P2P network, the blockchain, and consensus 
+algorithms.
 
-Vitalik junto a [Gavin Wood](https://en.wikipedia.org/wiki/Gavin_Wood) fueron puliendo 
-por años estas ideas incipientes hasta que en Julio de 2015 se crea (mina) el primer 
-bloque de la blockchain de Ethereum dando inicio a su operación.
+Vitalik, together with [Gavin Wood](https://en.wikipedia.org/wiki/Gavin_Wood) were 
+polishing these incipient ideas for years until July 2015, when the first block 
+of the Ethereum blockchain was mined starting its operation.
 
-### Principales componentes
+### Main components
 
-- **Red P2P**: Ethereum se ejecuta en la red principal de Ethereum (Mainnet) siguiendo
-el protocolo *DEVp2p*. Además de la mainnet, existen redes Ethereum alternativas 
-como  Rinkeby o Ropsten;
-- **Reglas de consenso**: definidas en el [Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
-de Ethereum;
-- **Transacciones**: son mensajes de red que incluyen, entre otras cosas, remitente, 
-destinatario, valor, datos;
-- **Máquina de estados**: las transiciones de estado en Ethereum son procesadas por la
-máquina virtual de Ethereum ([EVM](https://ethereum.org/en/developers/docs/evm/)). 
-Los programas de la EVM se llama smart contracts que son escritos en lenguajes de 
-alto nivel, como Solidity, y compilados a lenguaje máquina (bytecode);
-- **Estructuras de datos**: el estado de la red Ethereum se almacena en base de datos 
-del tipo clave-valor (ej., [LevelDB](https://en.wikipedia.org/wiki/LevelDB])) y 
-alojadas en nodos de la red que contienen la información de las transacciones en un formato serializado llamado
-[Merkle Patricia Trie](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-ethereum-trie/);
-- **Algoritmos de consenso**: desde sus inicios Ethereum utilizó el algoritmo de 
-consenso y verificación de transacciones [Proof-of-Work (PoW)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/) 
-empleado por Bitcoin. En la actualidad existe en curso un proceso de migración 
-a un nuevo y más eficiente algoritmo de consenso llamado 
-[Proof-of-Stake (PoS)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/);
-- **Clientes**: aplicaciones de software que implementan las especificaciones de
-Ethereum y permite la comunicación a través de la red P2P con otros clientes de
-Ethereum.
+- **P2P Network**: Ethereum runs on the Ethereum's main network (Mainnet) following 
+the *DEVp2p* protocol. In addition to the mainnet, there are alternative Ethereum 
+networks like Rinkeby or Ropsten;
+- **Consensus rules**: defined in the [Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf) 
+of Ethereum;
+- **Transactions**: these are the network messages that include, among other things, 
+sender, recipient, value, payload data;
+- **State machine**: State transitions in Ethereum are processed by the Ethereum 
+virtual machine([EVM](https://ethereum.org/en/developers/docs/evm/)). EVM programs 
+are called smart contracts, which are written in high-level languages, like Solidity, 
+and later compiled into bytecode;
+- **Data structures**: the state of the Ethereum network is stored in key-value databases 
+(e.g., [LevelDB](https://en.wikipedia.org/wiki/LevelDB])) after it has been serialized
+using a format called  [Merkle Patricia Trie](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-ethereum-trie/);
+- **Consensus algorithms**: from its origins, Ethereum used the consensus 
+algorithm [Proof-of-Work (PoW)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/), 
+employed by Bitcoin, to verify transactions. There is currently a migration process 
+underway to a new and more efficient consensus algorithm called [Proof-of-Stake (PoS)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/);
+- **Clients**: software applications that implement the specifications of Ethereum 
+and allows communication through the P2P network with other clients of Ethereum.
 
-### Ethers y Wallets
+### Ethers and Wallets
 
-La moneda en Ethereum es el *ether*. Para interactuar con la red Ethereum se necesita
-una cuenta con ethers. Estos ethers se almacenan en `wallets`, que no son otra cosa 
-que aplicaciones de software que ayudan a gestionar una cuenta de Ethereum.
+The currency in Ethereum is *ether*. To interact with the Ethereum network, you 
+need an account with ethers. These ethers are stored in `wallets`, which are 
+software applications that help manage an Ethereum account.
 
-Existen una gran variedad de wallets, de todo tipo, web-based, desktop, móvil, e
-incluso dispositivos físicos llamados `cold wallets`. [Metamask](https://metamask.io) 
-es una wallet muy utilizada por su facilidad de uso y conveniencia, especialmente 
-en entornos de prueba. [Aquí](https://github.com/ethereumbook/ethereumbook/blob/develop/02intro.asciidoc#getting-started-with-metamask) 
-se explica como crear una `wallet` en Metamask y agregar ethers de prueba.
+There are a wide variety of wallets, web-based, desktop, mobile, and even physical 
+devices called `cold wallets`. [Metamask] (https://metamask.io) is a widely used 
+wallet for its ease of use and convenience. [Here](https://github.com/ethereumbook/ethereumbook/blob/develop/02intro.asciidoc#getting-started-with-metamask) 
+it is explained how to create a `wallet` in Metamask and add test ethers.
 
 ![Blockchain](../figures/metamask.png)
 
-### Smart contracts y Solidity
+### Smart contracts and Solidity
 
-Los programas de computador que se ejecutan sobre la red Ethereum en el contexto 
-de la EVM se llaman *smart contracts*. Los smart contracts son escritos en lenguajes 
-de alto nivel y luego compilados en código máquina. Uno de estos lenguajes,
-quizás el más extendido de ellos, es [Solidity](https://docs.soliditylang.org/en/latest/) 
-creado por Gavin Wood, uno de los co-creadores de Ethereum. Otra opción de lenguaje
-para contratos inteligentes es [Vyper](https://vyper.readthedocs.io/en/stable/).
+Computer programs running on the Ethereum network in the context of the EVM are 
+called *smart contracts*. Smart contracts are written in high-level programming 
+languages and then compiled into machine code. One of these languages, and perhaps 
+the most widely used, is [Solidity] (https://docs.soliditylang.org/en/latest/), 
+created by Gavin Wood, one of the Ethereum co-creator.
 
-Solidity es un lenguaje de programación imperativo de [código abierto](https://github.com/ethereum/solidity) 
-con una sintáxis parecida al lenguaje Java. A continuación se puede apreciar un ejemplo
-extraído de la documentación de Ethereum.
+Solidity is an imperative [open source](https://github.com/ethereum/solidity) 
+programming language with a syntax similar to the Java language. Below you can 
+see an example taken from the Ethereum documentation.
 
 ```Solidity
 // SPDX-License-Identifier: GPL-3.0
@@ -127,8 +120,8 @@ contract Coin {
 }
 ```
 
-Para más información sobre Solidity consultar los tutoriales y documentación en 
-el directorio [materials](../materials) de este repositorio.
+For more information on Solidity, consult the tutorials and documentation in 
+the [materials] (../ materials) directory of this repository.
 
 ## Referencias
 
