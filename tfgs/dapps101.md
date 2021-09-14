@@ -18,7 +18,7 @@ application's business logic. An aspect to consider in developing smart contract
 is the impossibility of changing the code once it has been deployed on the blockchain.
 
 Exist frameworks that facilitate the deployment and testing of smart contracts. 
-Truffle and the more recent Hardhat are two examples of them. The directory [materials](../materials /technical_refs.md) 
+Truffle and the more recent Hardhat are two examples of them. The directory [materials](../materials/technical_refs.md) 
 from this repository contains technical references to Truffle' and Hardhat's documentation.
 
 ## Frontend
