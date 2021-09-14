@@ -14,8 +14,8 @@ implications in terms of instability, security, and payment.
 
 ## P2P Models
 
-Smart is one of the case studies of the research project P2P Models. For the last 
-three years, researchers of the P2P Models project have been working with servants 
+Smart is one of the case studies of the research project [P2P Models](https://p2pmodels.eu). 
+For the last three years, researchers of the P2P Models project have been working with servants 
 and members of SMART cooperative to design and develop blockchain-based technologies 
 that help them improve the operation of the organization and the working conditions 
 of the artists.
