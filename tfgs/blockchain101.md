@@ -16,7 +16,7 @@ las partes que componen el sistema. Inicialmente, entonces, blockchain fue conce
 como la herramienta que posibilitó el funcionamiento de la red Bitcoin almacenando
 las operaciones que ocurrian dentro de ella.
 
-![Blockchain](../figures/blockchain-transaction-blocks.svg)
+![Blockchain](../figures/blockchain.jpeg)
 
 ## Ethereum
 
