@@ -12,10 +12,10 @@ A very noticeable temporality characterizes the working conditions of Smart memb
 Half of the registered contracts are one day long. This situation has significant 
 implications in terms of instability, security, and payment.
 
-## P2P Model
+## P2P Models
 
 Smart is one of the case studies of the research project P2P Models. For the last 
-three years, researchers of the P2P Model project have been working with servants 
+three years, researchers of the P2P Models project have been working with servants 
 and members of SMART cooperative to design and develop blockchain-based technologies 
 that help them improve the operation of the organization and the working conditions 
 of the artists.
