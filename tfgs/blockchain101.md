@@ -37,27 +37,27 @@ bloque de la blockchain de Ethereum dando inicio a su operación.
 
 ### Principales componentes
 
-- Red P2P: Ethereum se ejecuta en la red principal de Ethereum (Mainnet) siguiendo
+- **Red P2P**: Ethereum se ejecuta en la red principal de Ethereum (Mainnet) siguiendo
 el protocolo *DEVp2p*. Además de la mainnet, existen redes Ethereum alternativas 
 como  Rinkeby o Ropsten;
-- Reglas de consenso: definidas en el [Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
+- **Reglas de consenso**: definidas en el [Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 de Ethereum;
-- Transacciones: son mensajes de red que incluyen, entre otras cosas, remitente, 
+- **Transacciones**: son mensajes de red que incluyen, entre otras cosas, remitente, 
 destinatario, valor, datos;
-- Máquina de estados: las transiciones de estado en Etherum son procesadas por la
+- **Máquina de estados**: las transiciones de estado en Etherum son procesadas por la
 máquina virtual de Ethereum ([EVM](https://ethereum.org/en/developers/docs/evm/)). 
 Los programas de la EVM se llama smart contracts que son escritos en lenguajes de 
 alto nivel, como Solidity, y compilados a lenguaje máquina (bytecode);
-- Estructuras de datos: el estado de la red Ethereum se almacena en base de datos 
+- **Estructuras de datos**: el estado de la red Ethereum se almacena en base de datos 
 alojadas en nodos de la red (ej., [LevelDB](https://en.wikipedia.org/wiki/LevelDB]))
 que contienen la información de las transacciones en un formato serializado llamado
 [Merkle Patricipa Trie](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-ethereum-trie/);
-- Algoritmos de consenso: desde sus inicios Ethereum utilizó el algoritmo de 
+- **Algoritmos de consenso**: desde sus inicios Ethereum utilizó el algoritmo de 
 consenso y verificación de transacciones [Proof-of-Work (PoW)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/) 
 propuesto por Bitcoin. En la actualidad existe en curso un proceso de migración 
 a un nuevo y más eficiente algoritmo de consenso llamado 
 [Proof-of-Stake (PoS)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/);
-- Clientes: aplicaciones de software que implementan las especificaciones de
+- **Clientes**: aplicaciones de software que implementan las especificaciones de
 Ethereum y permite la comunicación a través de la red P2P con otros clientes de
 Ethereum.
 
@@ -126,6 +126,9 @@ contract Coin {
     }
 }
 ```
+
+Para más información sobre Solidity consultar los tutoriales y documentación en 
+el directorio [materials](../materials) de este repositorio.
 
 ## Referencias
 

@@ -7,6 +7,8 @@
     4. [Aragon Connect](https://aragon.org/connect)
     5. [AragonUI](https://ui.aragon.org)
     6. [Meta-transactions](https://opengsn.org)
+    7. [Truffle](https://www.trufflesuite.com)
+    8. [Hardhat](https://hardhat.org)
 
 2. Front-end
     1. [Learning React](https://github.com/MoonHighway/learning-react)

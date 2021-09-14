@@ -19,6 +19,11 @@ toda la lógica de la aplicación. Un aspecto a considerar en el desarrollo de
 smart contracts es la imposibilidad de cambiar el código una vez este ha sido
 desplegado en la blockchain.
 
+Existen frameworks que facilitan el despligue y testeo de los smart contracts. 
+Truffle y el más reciente Harhat son dos ejemplos de estos. El directorio
+[materials](../materials/technical_refs.md) de este repositorio contiene referencias 
+técnicas de Truffle y Hardhat.
+
 ## Frontend
 
 El frontend de las dapps pueden estar implementados usando tecnología web
@@ -32,9 +37,16 @@ librería javascript llamada [Web3](https://web3js.readthedocs.io/en/v1.5.2/).
 Web3 se encarga de gestionar el acceso a nodos locales o remotos de ethereum,
 así como también se ocupa de la interacción con las wallets.
 
+Para más información sobre Web3 consultar la documentación técnica en [materials](../materials/technical_refs.md) 
+de este repositorio.
+
 ### React
 
 [React](https://reactjs.org) es en la actualidad uno de los frameworks de 
 desarrollo de interfaces webs más extendidos y utilizados. Creado por Facebook 
 ofrece un tooling de herramientas que facilita la gestión de los componentes y 
 el estado de la aplicación.
+
+El directorio [bibliography/books](../bibliography/books/README.md) de este 
+repositorio dispone de un enlace al libro `Learning React` que puede servir como
+referencia para aprendar a programar utilizando el framework React.
