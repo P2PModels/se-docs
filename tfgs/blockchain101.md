@@ -74,7 +74,7 @@ it is explained how to create a `wallet` in Metamask and add test ethers.
 Computer programs running on the Ethereum network in the context of the EVM are 
 called *smart contracts*. Smart contracts are written in high-level programming 
 languages and then compiled into machine code. One of these languages, and perhaps 
-the most widely used, is [Solidity] (https://docs.soliditylang.org/en/latest/), 
+the most widely used, is [Solidity](https://docs.soliditylang.org/en/latest/), 
 created by Gavin Wood, one of the Ethereum co-creator.
 
 Solidity is an imperative [open source](https://github.com/ethereum/solidity) 
