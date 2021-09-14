@@ -75,9 +75,9 @@ Computer programs running on the Ethereum network in the context of the EVM are
 called *smart contracts*. Smart contracts are written in high-level programming 
 languages and then compiled into machine code. One of these languages, and perhaps 
 the most widely used, is [Solidity](https://docs.soliditylang.org/en/latest/), 
-created by Gavin Wood, one of the Ethereum co-creator.
+created by Gavin Wood, one of the Ethereum co-creators.
 
-Solidity is an imperative [open source](https://github.com/ethereum/solidity) 
+Solidity is an imperative [open-source](https://github.com/ethereum/solidity) 
 programming language with a syntax similar to the Java language. Below you can 
 see an example taken from the Ethereum documentation.
 
@@ -121,7 +121,7 @@ contract Coin {
 ```
 
 For more information on Solidity, consult the tutorials and documentation in 
-the [materials] (../ materials) directory of this repository.
+the [materials](../materials) directory of this repository.
 
 ## Referencias
 
