@@ -35,17 +35,3 @@ asesoramiento de un/a tutor/a industrial del programa blockchain de Telefónica.
 Opcionalmente y si hay interés, el proyecto podrá hacer uso de técnicas de 
 procesamiento de lenguaje natural (NLP) para mejorar la recopilación de denuncias. 
 Para este TFG, no es requisito conocimiento previo de las tecnologías a utilizar.
-
-## Grupo
-
-- Raquel Pérez (raqper06@ucm.es)
-- Julian Moreno (jumore04@ucm.es)
-- Pablo Imbert (pimbert@ucm.es)
-- Angela Ruíz (angrui02@ucm.es)
-- Javier Mulero (jmulero@ucm.es)
-- Roberto Asunción (robeasun@ucm.es)
-
-## Tutores
-
-- Samer Hassan (samer@fdi.ucm.es)
-- Jorge Saldivar (jasaldivar@ucm.es)
