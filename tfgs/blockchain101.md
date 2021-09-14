@@ -8,7 +8,7 @@ en el cual el autor, que se hace llamar Satoshi Nakamoto, describe un sistema qu
 permite a las personas intercambiar entre si, esto es peer-to-peer (P2P), una moneda 
 electrónica sin necesidad de una autoridad intermediaria central o banco.
 
-[Agregar img de portada del paper]
+![Satochi Paper](../figures/bitcoin_paper.png)
 
 Una de las ideas centrales del sistema P2P de Bitcoin fue la de usar una cadena 
 de bloques (o blockchain) para almacenar las operaciones monetarias que realizaron
@@ -16,7 +16,7 @@ las partes que componen el sistema. Inicialmente, entonces, blockchain fue conce
 como la herramienta que posibilitó el funcionamiento de la red Bitcoin almacenando
 las operaciones que ocurrian dentro de ella.
 
-[Agregar img de blockchain]
+![Blockchain](../figures/blockchain-transaction-blocks.svg)
 
 ## Ethereum
 
@@ -73,7 +73,7 @@ es una wallet muy utilizada por su facilidad de uso y conveniencia, especialment
 en entornos de prueba. [Aquí](https://github.com/ethereumbook/ethereumbook/blob/develop/02intro.asciidoc#getting-started-with-metamask) 
 se explica como crear un wallet en Metamask y agregar ethers de prueba.
 
-[Agregar imagen de Metamask]
+![Blockchain](../figures/metamask.png)
 
 ### Smart contracts y Solidity
 

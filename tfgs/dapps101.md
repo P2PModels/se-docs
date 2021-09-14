@@ -10,6 +10,8 @@ resistencia a censura ya la naturalez distrubuida de la red sobre la que opera
 la aplicación hace que cualquier usuario pueda interactuar con la lógica de la
 aplicación sin interferencia de una autoridad central.
 
+![Decentralized Pic](../figures/dcap_0101.png)
+
 ## Backend
 
 El backend de las dapps son los smart contracts que se encargan de almacenar
