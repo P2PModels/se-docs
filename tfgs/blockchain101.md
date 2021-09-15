@@ -63,7 +63,7 @@ need an account with ethers. These ethers are stored in `wallets`, which are
 software applications that help manage an Ethereum account.
 
 There are a wide variety of wallets, web-based, desktop, mobile, and even physical 
-devices called `cold wallets`. [Metamask] (https://metamask.io) is a widely used 
+devices called `cold wallets`. [Metamask](https://metamask.io) is a widely used 
 wallet for its ease of use and convenience. [Here](https://github.com/ethereumbook/ethereumbook/blob/develop/02intro.asciidoc#getting-started-with-metamask) 
 it is explained how to create a `wallet` in Metamask and add test ethers.
 

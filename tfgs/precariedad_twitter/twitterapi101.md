@@ -4,12 +4,12 @@ Twitter offers developers a series of RESTful APIs that allow interaction with
 the platform. Through APIs, you can create content like this as well as extract 
 data.
 
-The first thing to use any API is to carefully read its [documentation] (https://developer.twitter.com/en/docs/twitter-api),
+The first thing to use any API is to carefully read its [documentation](https://developer.twitter.com/en/docs/twitter-api),
 which allows knowing the functionalities available to the developer. Then it is 
-recommended to have an API RESTful client, for example [Postman] (https://www.postman.com/product/api-client/), 
+recommended to have an API RESTful client, for example [Postman](https://www.postman.com/product/api-client/), 
 to make test requests and view responses. Once you have the selected the programming 
 language with which you are going to work, you can choose a client written in the 
-selected language to facilitate the operation of the API. [Here] (https://developer.twitter.com/en/docs/twitter-api/tools-and-libraries) 
+selected language to facilitate the operation of the API. [Here](https://developer.twitter.com/en/docs/twitter-api/tools-and-libraries) 
 Twitter documents an extensive list of open-source libraries that enable the 
 interaction with their API.
 
@@ -24,6 +24,6 @@ out a request form explaining, among other things, the expected use of the API,
 such as how it is planned to use the data and how the results will be published 
 or made available.
 
-In this [link] (https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api), 
+In this [link](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api), 
 it is described the steps to get started with the API of Twitter.
 
