@@ -8,7 +8,7 @@ Además de etiquetas similares a las HTML, React incorpora patrones de desarroll
 
 Para más información sobre el framework React se puede consulta la [documentación técnica](https://reactjs.org/) oficial y/o el libro [Learning React: Modern Patterns for Developing React Apps](https://github.com/MoonHighway/learning-react).
 
-## Ejercicio práctico
+## Ejercicio práctico - ToDo List
 
 Para comenzar a experimentar con el framework se propone la construcción de una aplicación [single page](https://en.wikipedia.org/wiki/Single-page_application) para la gestión de listas de tareas pendientes. La aplicación debe permitir al usuario crear, modificar, y eliminar listas de tareas pendientes así como también crear, modificar, buscar, y eliminar tareas. 
 
