@@ -5,9 +5,10 @@ El siguiente ejercicio que se plantea tiene como objetivo recolectar publicacion
 ## Identificar tweets sobre precariedad laboral en España
 
 1. Darse de alta para utilizar el API de Twitter, ver [aqui](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api);
-2. Elaborar un listado, lo más completo posible, de palabras claves relacionadas al tema de la precariedad laboral;
+2. Elaborar un vocabulario, lo más completo posible, de palabras claves relacionadas al tema de la precariedad laboral;
 3. Identificar y extraer publicaciones realizadas en Twitter y en **idioma español** que hablen sobre la problemática de la precariedad laboral **en España**;
 4. Visualizar las palabras relacionadas a la precariedad que más se repiten en las publicaciones;
-5. Almacenar las publicaciones en archivos de texto.
+5. Almacenar las publicaciones en archivos de texto;
+6. Identificar cuentas de Twitter que dan visibilidad a la problemática de la precariedad laboral en España;
 
 Los detalles de implementación no especificados quedan a criterio del estudiante.
