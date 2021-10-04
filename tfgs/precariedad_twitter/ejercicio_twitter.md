@@ -1,4 +1,4 @@
-# Ejercicio Twitter
+# Ejercicio sobre el uso del API de Twitter
 
 El siguiente ejercicio que se plantea tiene como objetivo recolectar publicaciones realizadas en la red social Twitter sobre la precariedad laboral en España. Para ello se utilizará el API y un cliente del API a elección de implementador.
 
@@ -11,5 +11,3 @@ El siguiente ejercicio que se plantea tiene como objetivo recolectar publicacion
 5. Almacenar las publicaciones en archivos de texto.
 
 Los detalles de implementación no especificados quedan a criterio del estudiante.
-
-
